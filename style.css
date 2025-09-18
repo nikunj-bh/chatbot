@@ -3,6 +3,13 @@ body {
   margin: 0;
   background-color: rgb(182, 255, 170);
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100dvh;  /* fixes the initial hidden issue */
+  overflow: hidden; /* optional */
+}
+
 
 .app-container {
   max-width: 600px;
